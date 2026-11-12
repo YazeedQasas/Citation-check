@@ -1,0 +1,59 @@
+{
+  "statute": [
+    {
+      "id": "S:63/2009:40",
+      "law_number": "63",
+      "year": "2009",
+      "article": "40",
+      "law_name": "Commercial Law",
+      "content": "commercial claims prescribe after five years unless the law provides a shorter period.",
+      "citation_text": "Article 40 of Commercial Law No. (63) of 2009",
+      "span": [
+        247,
+        292
+      ],
+      "origin": "llm"
+    },
+    {
+      "id": "S:41/2008:23bis",
+      "law_number": "41",
+      "year": "2008",
+      "article": "23bis",
+      "content": "توقف ميعاد الطعن إذا توفي أحد الخصوم أو فقد أهليته.",
+      "citation_text": "المادة الثالثة والعشرين مكرراً من القانون رقم (٤١) لسنة ٢٠٠٨",
+      "span": [
+        722,
+        782
+      ],
+      "origin": "llm"
+    },
+    {
+      "id": "S:8/2013:31bis",
+      "law_number": "8",
+      "year": "2013",
+      "article": "31bis",
+      "law_name": "Labour",
+      "content": "أما ما أشار إليه وكيل المدعى عليه من أن Article 31 bis of Labour Law No. 8 of 2013 يوجب على صاحب العمل دفع مكافأة تعادل أجر شهر عن كل سنة خدمة، فإنه لا علاقة له بموضوع هذه الدعوى.",
+      "citation_text": "Article 31 bis of Labour Law No. 8 of 2013 ",
+      "span": [
+        881,
+        924
+      ],
+      "origin": "regex"
+    }
+  ],
+  "cassation": [
+    {
+      "id": "C:349/2020",
+      "appeal_number": "349",
+      "year": "2020",
+      "content": "محكمة النقض قررت أن المطالبة الودية تقطع التقادم التجاري.",
+      "citation_text": "Cassation Appeal No. 349 of 2020",
+      "span": [
+        527,
+        559
+      ],
+      "origin": "llm"
+    }
+  ]
+}

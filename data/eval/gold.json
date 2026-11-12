@@ -1,0 +1,181 @@
+{
+  "_note": "Held-out evaluation set with planted errors, built by scripts/build_eval_set.py. Do not tune prompts/regex on it without re-measuring on fresh drafts.",
+  "E01.txt": [
+    {
+      "kind": "statute",
+      "id": "S:77/2011:12",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:87/2018",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:77/2011:99",
+      "expected_status": "NOT_FOUND",
+      "lang": "ar"
+    }
+  ],
+  "E02.txt": [
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:1203/2017",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:1204/2017",
+      "expected_status": "NOT_FOUND",
+      "lang": "ar"
+    }
+  ],
+  "E03.txt": [
+    {
+      "kind": "statute",
+      "id": "S:77/2011:15",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:456/2015",
+      "expected_status": "CONTRADICTS",
+      "lang": "en"
+    },
+    {
+      "kind": "statute",
+      "id": "S:77/2011:12",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    }
+  ],
+  "E04.txt": [
+    {
+      "kind": "statute",
+      "id": "S:15/2015:9",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:87/2018",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:15/2015:14",
+      "expected_status": "AMBIGUOUS",
+      "lang": "ar"
+    }
+  ],
+  "E05.txt": [
+    {
+      "kind": "statute",
+      "id": "S:63/2009:40",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:349/2020",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:2210/2019",
+      "expected_status": "AMBIGUOUS",
+      "lang": "ar"
+    }
+  ],
+  "E06.txt": [
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:63/2009:40",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:77/2011:15",
+      "expected_status": "AMBIGUOUS",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:912/2014",
+      "expected_status": "SUPPORTED",
+      "lang": "en"
+    }
+  ],
+  "E07.txt": [
+    {
+      "kind": "statute",
+      "id": "S:8/2013:31",
+      "expected_status": "SUPPORTED",
+      "lang": "en"
+    },
+    {
+      "kind": "statute",
+      "id": "S:8/2013:32",
+      "expected_status": "NOT_FOUND",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:7788/2022",
+      "expected_status": "NOT_FOUND",
+      "lang": "en"
+    },
+    {
+      "kind": "statute",
+      "id": "S:77/2011:15",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    }
+  ],
+  "E08.txt": [
+    {
+      "kind": "statute",
+      "id": "S:22/2017:5",
+      "expected_status": "NOT_FOUND",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:15/2015:9",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:349/2020",
+      "expected_status": "AMBIGUOUS",
+      "lang": "en"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:1203/2017",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    }
+  ]
+}

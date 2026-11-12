@@ -1,0 +1,143 @@
+[
+  {
+    "label": "full",
+    "overall": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "by_kind": {
+      "cassation": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "statute": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "by_lang": {
+      "ar": {
+        "tp": 19,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "en": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "misses": [],
+    "false_positives": [],
+    "incomplete_drafts": [],
+    "seconds": 54.9
+  },
+  {
+    "label": "llm_only",
+    "overall": {
+      "tp": 20,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.909
+    },
+    "by_kind": {
+      "cassation": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "statute": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.857
+      }
+    },
+    "by_lang": {
+      "ar": {
+        "tp": 18,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.947
+      },
+      "en": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.667
+      }
+    },
+    "misses": [
+      "draft_05.txt: S:8/2013:77",
+      "draft_06.txt: S:8/2013:31bis"
+    ],
+    "false_positives": [],
+    "incomplete_drafts": [],
+    "seconds": 56.3
+  },
+  {
+    "label": "regex_only",
+    "overall": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "by_kind": {
+      "cassation": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "statute": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "by_lang": {
+      "ar": {
+        "tp": 19,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "en": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "misses": [],
+    "false_positives": [],
+    "incomplete_drafts": [],
+    "seconds": 0.0
+  }
+]

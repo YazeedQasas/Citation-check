@@ -1,0 +1,80 @@
+{
+  "label": "hard_v2",
+  "drafts": 5,
+  "citations": 17,
+  "correct": 17,
+  "accuracy": 1.0,
+  "confusion_matrix_expected_to_actual": {
+    "SUPPORTED": {
+      "SUPPORTED": 7
+    },
+    "CONTRADICTS": {
+      "CONTRADICTS": 6
+    },
+    "NOT_FOUND": {
+      "NOT_FOUND": 4
+    }
+  },
+  "per_status": {
+    "SUPPORTED": {
+      "support": 7,
+      "tp": 7,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "CONTRADICTS": {
+      "support": 6,
+      "tp": 6,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "AMBIGUOUS": {
+      "support": 0,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "recall": null
+    },
+    "NOT_FOUND": {
+      "support": 4,
+      "tp": 4,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "by_kind": {
+    "cassation": {
+      "correct": 7,
+      "total": 7,
+      "accuracy": 1.0
+    },
+    "statute": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 1.0
+    }
+  },
+  "by_lang": {
+    "ar": {
+      "correct": 16,
+      "total": 16,
+      "accuracy": 1.0
+    },
+    "en": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    }
+  },
+  "errors": [],
+  "extras": [],
+  "needs_review": [],
+  "seconds": 65.1
+}

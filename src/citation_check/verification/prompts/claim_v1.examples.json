@@ -1,0 +1,51 @@
+[
+  {
+    "_why": "paraphrase in Arabic -> matches",
+    "kind": "statute", "label": "المادة 18 من قانون رقم 3 لسنة 1999",
+    "authoritative": "تتقادم دعوى المطالبة بالأجرة بمرور سنتين من تاريخ استحقاقها.",
+    "claim": "وحيث إن دعوى المطالبة بالأجور تسقط بالتقادم بعد مضي سنتين على استحقاقها، فإن الدعوى مقامة في الميعاد.",
+    "output": {"reason": "الحكم نفسه: التقادم سنتان من الاستحقاق.", "matches_claim": true, "related": true}
+  },
+  {
+    "_why": "different number -> related but does not match",
+    "kind": "cassation", "label": "قرار محكمة النقض رقم 40 لسنة 2005",
+    "authoritative": "يجب على المشتري فحص المبيع خلال خمسة عشر يوماً من تسلمه وإلا سقط حقه في الرجوع بالعيب.",
+    "claim": "وقد قضت محكمة النقض بأن للمشتري فحص المبيع خلال ثلاثين يوماً من التسلم.",
+    "output": {"reason": "الميعاد في القرار خمسة عشر يوماً وليس ثلاثين.", "matches_claim": false, "related": true}
+  },
+  {
+    "_why": "English claim, opposite rule -> related but does not match",
+    "kind": "statute", "label": "article 7 of law 12 of 2001",
+    "authoritative": "لا يجوز الحجز على الأجور إلا في حدود الربع لدين النفقة.",
+    "claim": "Under Article 7, wages may be attached in full to satisfy any debt.",
+    "output": {"reason": "The text allows attachment of wages only up to a quarter and only for maintenance debts.", "matches_claim": false, "related": true}
+  },
+  {
+    "_why": "completely different subject -> unrelated",
+    "kind": "statute", "label": "المادة 4 من قانون رقم 25 لسنة 1990",
+    "authoritative": "يعد الشخص قاصراً إذا لم يتم الثامنة عشرة من عمره.",
+    "claim": "وتستحق الفوائد القانونية من تاريخ المطالبة القضائية.",
+    "output": {"reason": "النص يتعلق بسن القصر والادعاء يتعلق بالفوائد القانونية.", "matches_claim": false, "related": false}
+  },
+  {
+    "_why": "faithful summary of a longer text -> matches",
+    "kind": "statute", "label": "المادة 22 من قانون رقم 9 لسنة 2002",
+    "authoritative": "للمستأجر حق تجديد العقد مدة مماثلة ما لم يخطر المؤجر برغبته في عدم التجديد قبل انتهاء المدة بشهرين على الأقل. ويكون الإخطار كتابياً.",
+    "claim": "للمستأجر تجديد عقد الإيجار ما لم يخطره المؤجر كتابة قبل انتهاء المدة بشهرين.",
+    "output": {"reason": "الادعاء يلخص النص بدقة: التجديد ما لم يوجد إخطار كتابي قبل شهرين.", "matches_claim": true, "related": true}
+  },
+  {
+    "_why": "English claim, Arabic text, same meaning -> matches",
+    "kind": "statute", "label": "article 30 of law 6 of 1995",
+    "authoritative": "يلتزم الكفيل بأداء الدين إذا لم يوفِ المدين به عند حلول الأجل.",
+    "claim": "The guarantor must pay the debt if the debtor fails to pay it when it falls due.",
+    "output": {"reason": "The claim restates the same rule in English.", "matches_claim": true, "related": true}
+  },
+  {
+    "_why": "claim adds a rule that the text does not contain -> does not match",
+    "kind": "statute", "label": "المادة 12 من قانون رقم 14 لسنة 2010",
+    "authoritative": "يستحق العامل إجازة سنوية مدتها واحد وعشرون يوماً.",
+    "claim": "يستحق العامل إجازة سنوية مدتها واحد وعشرون يوماً، وتزداد إلى ثلاثين يوماً بعد خمس سنوات من الخدمة.",
+    "output": {"reason": "الزيادة إلى ثلاثين يوماً بعد خمس سنوات غير واردة في النص.", "matches_claim": false, "related": true}
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "_note": "Common ways each citation type is phrased in draft judgments. Used (a) to write the extraction prompt and (b) as extra test inputs. '…' marks the parts that vary.",
+  "statute": {
+    "ar": [
+      "عملاً بأحكام المادة (…) من قانون … رقم (…) لسنة …",
+      "استناداً إلى نص المادة (…) فقرة (…) من …",
+      "وحيث إن المادة (…) من القانون ذاته تنص على أن …",
+      "سنداً للمادتين (…) و(…) من …",
+      "المادة (…) مكرر من قانون … رقم (…) لسنة …",
+      "المادة الثالثة والعشرون من القانون رقم (…) لسنة …"
+    ],
+    "en": [
+      "pursuant to Article (…) of Law No. (…) of …",
+      "under Article … bis of the … Law No. … of …",
+      "Article … of the same law provides that …",
+      "in accordance with Articles … and … of …"
+    ]
+  },
+  "cassation": {
+    "ar": [
+      "وهو ما استقر عليه اجتهاد محكمة النقض في قرارها رقم (…)/… الصادر بتاريخ …",
+      "وفي ذلك قضت محكمة النقض بأن … (نقض مدني رقم … لسنة …)",
+      "وهذا ما أكدته محكمة النقض في العديد من قراراتها، ومنها القرار رقم … لسنة …",
+      "وقد جرى قضاء محكمة النقض على أن … (الطعن رقم … لسنة … قضائية)"
+    ],
+    "en": [
+      "as held by the Court of Cassation in Decision No. (…) of …",
+      "Cassation Appeal No. … of …",
+      "the Court of Cassation ruled in its decision No. …/… dated … that …"
+    ]
+  }
+}

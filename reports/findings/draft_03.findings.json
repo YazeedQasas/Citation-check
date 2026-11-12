@@ -1,0 +1,74 @@
+{
+  "draft": "draft_03.txt",
+  "counts": {
+    "SUPPORTED": 0,
+    "CONTRADICTS": 2,
+    "AMBIGUOUS": 0,
+    "NOT_FOUND": 2
+  },
+  "findings": [
+    {
+      "kind": "statute",
+      "id": "S:77/2011:12",
+      "status": "CONTRADICTS",
+      "citation_text": "المادة (12) من قانون رقم (77) لسنة 2011",
+      "claim": "يجوز إثبات التصرفات القانونية مهما بلغت قيمتها بشهادة الشهود.",
+      "reason": "النص يمنع الإثبات بالشهود إذا تجاوزت القيمة خمسة آلاف دينار.",
+      "matched_corpus_id": "S:77/2011:12",
+      "corpus_content": "لا يجوز إثبات التصرفات القانونية التي تزيد قيمتها على خمسة آلاف دينار بشهادة الشهود، ويجب إثباتها بالكتابة، إلا إذا وجد مبدأ ثبوت بالكتابة.",
+      "span": [
+        153,
+        192
+      ],
+      "origin": "llm",
+      "needs_review": false
+    },
+    {
+      "kind": "cassation",
+      "id": "C:456/2015",
+      "status": "CONTRADICTS",
+      "citation_text": "القرار رقم (456) لسنة 2015",
+      "claim": "الإقرار الصادر من الخصم في دعوى أخرى يعد إقراراً قضائياً وحجة قاطعة عليه.",
+      "reason": "النص يوضح أن الإقرار ليس إقراراً قضائياً، بينما الادعاء عكس ذلك.",
+      "matched_corpus_id": "C:456/2015",
+      "corpus_content": "الإقرار الصادر من الخصم في دعوى أخرى لا يعتبر إقراراً قضائياً، ويخضع لتقدير المحكمة كدليل كتابي.",
+      "span": [
+        525,
+        551
+      ],
+      "origin": "llm",
+      "needs_review": false
+    },
+    {
+      "kind": "statute",
+      "id": "S:77/2011:99",
+      "status": "NOT_FOUND",
+      "citation_text": "المادة (99) من القانون ذاته",
+      "claim": "اليمين المتممة لا توجه إلا من المحكمة من تلقاء نفسها.",
+      "reason": "law 77/2011 is in the corpus but article 99 is not (corpus has: 12, 15)",
+      "closest_corpus_id": "S:77/2011:12",
+      "span": [
+        561,
+        588
+      ],
+      "origin": "llm",
+      "needs_review": false
+    },
+    {
+      "kind": "cassation",
+      "id": "C:5555/2021",
+      "status": "NOT_FOUND",
+      "citation_text": "القرار رقم 5555 لسنة 2021",
+      "claim": "عبء إثبات الوفاء يقع على المدين دائماً ولو لم يقدّم الدائن دليلاً على الدين.",
+      "reason": "no cassation decision with this number and year in the corpus",
+      "span": [
+        810,
+        835
+      ],
+      "origin": "llm",
+      "needs_review": false
+    }
+  ],
+  "warnings": [],
+  "extraction_complete": true
+}

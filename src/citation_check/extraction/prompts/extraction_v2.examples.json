@@ -1,0 +1,74 @@
+[
+  {
+    "_why": "Arabic-Indic digits; two articles cited together incl. مكرر; 'the same law'; cassation with chamber in the citation",
+    "input": "وحيث إن المدعي طلب التعويض عن الضرر. وعملاً بأحكام المادة (٥٥) من قانون الشركات رقم (٢٢) لسنة ٢٠٠٦ فإن الشركة تلتزم بتقديم ميزانيتها سنوياً. وسنداً للمادتين (٥٦) و(٥٦ مكرر) من القانون ذاته فإن للمساهم حق الاطلاع على سجلات الشركة. وفي ذلك قضت محكمة النقض بأن حق المساهم في الاطلاع لا يسقط بالتقادم (نقض حقوق رقم ٧١٢ لسنة ٢٠١٠).",
+    "output": {
+      "statute": [
+        {"law_number": "٢٢", "year": "٢٠٠٦", "article": "٥٥", "law_name": "قانون الشركات", "clause": null,
+         "content": "تلتزم الشركة بتقديم ميزانيتها سنوياً.",
+         "citation_text": "المادة (٥٥) من قانون الشركات رقم (٢٢) لسنة ٢٠٠٦"},
+        {"law_number": "٢٢", "year": "٢٠٠٦", "article": "٥٦", "law_name": "قانون الشركات", "clause": null,
+         "content": "للمساهم حق الاطلاع على سجلات الشركة.",
+         "citation_text": "للمادتين (٥٦) و(٥٦ مكرر) من القانون ذاته"},
+        {"law_number": "٢٢", "year": "٢٠٠٦", "article": "٥٦ مكرر", "law_name": "قانون الشركات", "clause": null,
+         "content": "للمساهم حق الاطلاع على سجلات الشركة.",
+         "citation_text": "للمادتين (٥٦) و(٥٦ مكرر) من القانون ذاته"}
+      ],
+      "cassation": [
+        {"appeal_number": "٧١٢", "year": "٢٠١٠", "chamber": "حقوق", "date": null,
+         "content": "حق المساهم في الاطلاع لا يسقط بالتقادم.",
+         "citation_text": "نقض حقوق رقم ٧١٢ لسنة ٢٠١٠"}
+      ]
+    }
+  },
+  {
+    "_why": "English citations; number/year written as 118/2012; a date; then an Arabic 'same law' reference with a clause",
+    "input": "The claimant relies on Article 14 of Insurance Law No. 9 of 2004, which requires the insurer to pay within 30 days. The Court of Cassation held in Decision No. 118/2012 dated 3 May 2012 that late payment entitles the insured to interest. وحيث إن المادة (15) فقرة (2) من القانون ذاته تنص على أن الإخطار يكون كتابياً.",
+    "output": {
+      "statute": [
+        {"law_number": "9", "year": "2004", "article": "14", "law_name": "Insurance Law", "clause": null,
+         "content": "The insurer must pay within 30 days.",
+         "citation_text": "Article 14 of Insurance Law No. 9 of 2004"},
+        {"law_number": "9", "year": "2004", "article": "15", "law_name": "Insurance Law", "clause": "2",
+         "content": "الإخطار يكون كتابياً.",
+         "citation_text": "المادة (15) فقرة (2) من القانون ذاته"}
+      ],
+      "cassation": [
+        {"appeal_number": "118", "year": "2012", "chamber": null, "date": "3 May 2012",
+         "content": "Late payment entitles the insured to interest.",
+         "citation_text": "Decision No. 118/2012 dated 3 May 2012"}
+      ]
+    }
+  },
+  {
+    "_why": "Negative cases: appeal-court decision ignored; general cassation reference without a number ignored; law named without number/year still extracted with nulls",
+    "input": "وبعد الاطلاع على قرار محكمة الاستئناف رقم (٣٣) لسنة ٢٠١٨، وحيث استقر قضاء محكمة النقض على أن البينة على من ادعى، وعملاً بأحكام المادة (٨) من قانون العمل فإن العامل يستحق الإجازة السنوية.",
+    "output": {
+      "statute": [
+        {"law_number": null, "year": null, "article": "٨", "law_name": "قانون العمل", "clause": null,
+         "content": "العامل يستحق الإجازة السنوية.",
+         "citation_text": "المادة (٨) من قانون العمل"}
+      ],
+      "cassation": []
+    }
+  },
+  {
+    "_why": "English statute/cassation citations inside Arabic sentences, as a party's submission; 'the same law' after an intervening cassation citation",
+    "input": "وقد دفع وكيل المدعى عليه بعدم قبول الدعوى استناداً إلى Article 12 of Customs Law No. 5 of 2001, which exempts personal effects from duties، وتمسك بما قررته محكمة النقض في Decision No. 77 of 2003 من أن الإعفاء يشمل الأمتعة الشخصية للمسافرين، وبأن المادة (١٣) من القانون ذاته تشترط تقديم إقرار جمركي.",
+    "output": {
+      "statute": [
+        {"law_number": "5", "year": "2001", "article": "12", "law_name": "Customs Law", "clause": null,
+         "content": "Personal effects are exempt from duties.",
+         "citation_text": "Article 12 of Customs Law No. 5 of 2001"},
+        {"law_number": "5", "year": "2001", "article": "١٣", "law_name": "Customs Law", "clause": null,
+         "content": "تشترط تقديم إقرار جمركي.",
+         "citation_text": "المادة (١٣) من القانون ذاته"}
+      ],
+      "cassation": [
+        {"appeal_number": "77", "year": "2003", "chamber": null, "date": null,
+         "content": "الإعفاء يشمل الأمتعة الشخصية للمسافرين.",
+         "citation_text": "Decision No. 77 of 2003"}
+      ]
+    }
+  }
+]

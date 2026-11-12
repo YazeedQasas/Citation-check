@@ -1,0 +1,78 @@
+{
+  "draft": "draft_06.txt",
+  "counts": {
+    "SUPPORTED": 2,
+    "CONTRADICTS": 1,
+    "AMBIGUOUS": 0,
+    "NOT_FOUND": 1
+  },
+  "findings": [
+    {
+      "kind": "statute",
+      "id": "S:63/2009:40",
+      "status": "SUPPORTED",
+      "citation_text": "Article 40 of Commercial Law No. (63) of 2009",
+      "claim": "commercial claims prescribe after five years unless the law provides a shorter period.",
+      "reason": "The claim accurately reflects the statute's provision regarding commercial prescription.",
+      "matched_corpus_id": "S:63/2009:40",
+      "corpus_content": "تتقادم الدعاوى الناشئة عن الالتزامات التجارية بمرور خمس سنوات ما لم ينص القانون على مدة أقصر.",
+      "span": [
+        247,
+        292
+      ],
+      "origin": "llm",
+      "needs_review": false
+    },
+    {
+      "kind": "cassation",
+      "id": "C:349/2020",
+      "status": "CONTRADICTS",
+      "citation_text": "Cassation Appeal No. 349 of 2020",
+      "claim": "محكمة النقض قررت أن المطالبة الودية تقطع التقادم التجاري.",
+      "reason": "النص ينص على أن المطالبة الودية لا تقطع التقادم، بينما الادعاء عكس ذلك.",
+      "matched_corpus_id": "C:349/2020",
+      "corpus_content": "التقادم التجاري لا تقطعه المطالبة الودية، ولا يقطعه إلا المطالبة القضائية أو الإقرار بالدين.",
+      "span": [
+        527,
+        559
+      ],
+      "origin": "llm",
+      "needs_review": false
+    },
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23bis",
+      "status": "SUPPORTED",
+      "citation_text": "المادة الثالثة والعشرين مكرراً من القانون رقم (٤١) لسنة ٢٠٠٨",
+      "claim": "توقف ميعاد الطعن إذا توفي أحد الخصوم أو فقد أهليته.",
+      "reason": "الادعاء صحيح ويستخلص الجزء الأول فقط من النص.",
+      "matched_corpus_id": "S:41/2008:23bis",
+      "corpus_content": "يوقف ميعاد الطعن إذا توفي أحد الخصوم أو فقد أهليته، ويستمر من تاريخ تبليغ ورثته أو من يمثله قانوناً.",
+      "span": [
+        722,
+        782
+      ],
+      "origin": "llm",
+      "needs_review": false
+    },
+    {
+      "kind": "statute",
+      "id": "S:8/2013:31bis",
+      "status": "NOT_FOUND",
+      "citation_text": "Article 31 bis of Labour Law No. 8 of 2013 ",
+      "claim": "أما ما أشار إليه وكيل المدعى عليه من أن Article 31 bis of Labour Law No. 8 of 2013 يوجب على صاحب العمل دفع مكافأة تعادل أجر شهر عن كل سنة خدمة، فإنه لا علاقة له بموضوع هذه الدعوى.",
+      "reason": "law 8/2013 is in the corpus but article 31bis is not (corpus has: 31)",
+      "closest_corpus_id": "S:8/2013:31",
+      "span": [
+        881,
+        924
+      ],
+      "origin": "regex",
+      "needs_review": false
+    }
+  ],
+  "warnings": [
+    "regex safety net added S:8/2013:31bis: 'Article 31 bis of Labour Law No. 8 of 2013 '"
+  ],
+  "extraction_complete": true
+}

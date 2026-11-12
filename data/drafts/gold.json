@@ -1,0 +1,169 @@
+{
+  "_note": "Hand-written gold labels for the synthetic sample drafts. 'claim' is what the draft asserts; 'expected_status' is what the pipeline should return against data/corpus/corpus.json. 'lang' is the language the citation is written in (en = English phrasing inside the Arabic draft).",
+  "draft_01.txt": [
+    {
+      "kind": "statute",
+      "id": "S:15/2015:9",
+      "expected_status": "SUPPORTED",
+      "claim": "no eviction before term end unless substantial breach, after written warning and 30 days",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:87/2018",
+      "expected_status": "SUPPORTED",
+      "claim": "written warning is required for eviction; tenant's knowledge does not replace it",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:15/2015:14",
+      "expected_status": "SUPPORTED",
+      "claim": "tenant pays rent on agreed dates (cited as 'the same law', article 14)",
+      "lang": "ar"
+    }
+  ],
+  "draft_02.txt": [
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23",
+      "expected_status": "SUPPORTED",
+      "claim": "appeal deadline is 30 days from the day after service",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23bis",
+      "expected_status": "SUPPORTED",
+      "claim": "deadline suspended on death or loss of capacity of a party (cited as 'articles 23 and 23 bis')",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:1203/2017",
+      "expected_status": "SUPPORTED",
+      "claim": "appeal deadline is peremptory; court raises it on its own motion",
+      "lang": "ar"
+    }
+  ],
+  "draft_03.txt": [
+    {
+      "kind": "statute",
+      "id": "S:77/2011:12",
+      "expected_status": "CONTRADICTS",
+      "claim": "legal acts of any value may be proved by witnesses",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:456/2015",
+      "expected_status": "CONTRADICTS",
+      "claim": "admission in another case is a judicial admission and conclusive",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:77/2011:99",
+      "expected_status": "NOT_FOUND",
+      "claim": "supplementary oath only from the court's own motion",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:5555/2021",
+      "expected_status": "NOT_FOUND",
+      "claim": "burden of proof of payment always on the debtor",
+      "lang": "ar"
+    }
+  ],
+  "draft_04.txt": [
+    {
+      "kind": "statute",
+      "id": "S:63/2009:40",
+      "expected_status": "SUPPORTED",
+      "claim": "commercial claims prescribe after five years",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:349/2020",
+      "expected_status": "SUPPORTED",
+      "claim": "amicable demand does not interrupt commercial prescription",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:2210/2019",
+      "expected_status": "AMBIGUOUS",
+      "claim": "late-payment interest runs from demand, capped at the legal rate (unrelated to the corpus principle on evidence/contract interpretation)",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23",
+      "expected_status": "CONTRADICTS",
+      "claim": "appeal deadline is 15 days from the date of the judgment",
+      "lang": "ar"
+    }
+  ],
+  "draft_05.txt": [
+    {
+      "kind": "statute",
+      "id": "S:8/2013:31",
+      "expected_status": "SUPPORTED",
+      "claim": "30 days' written notice before ending an open-ended employment contract",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:912/2014",
+      "expected_status": "SUPPORTED",
+      "claim": "arbitrary dismissal requires compensation, scaled to service length and harm",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:8/2013:77",
+      "expected_status": "NOT_FOUND",
+      "claim": "overtime pay is increased by a quarter of the base wage (cited as 'the same law')",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:77/2011:15",
+      "expected_status": "AMBIGUOUS",
+      "claim": "worker is entitled to end-of-service gratuity (unrelated to the corpus text on judicial admission); mixed Persian/Arabic-Indic digits in the draft",
+      "lang": "ar"
+    }
+  ],
+  "draft_06.txt": [
+    {
+      "kind": "statute",
+      "id": "S:63/2009:40",
+      "expected_status": "SUPPORTED",
+      "claim": "English citation: commercial claims prescribe after five years",
+      "lang": "en"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:349/2020",
+      "expected_status": "CONTRADICTS",
+      "claim": "English citation: amicable demand DOES interrupt commercial prescription (the draft attributes this to the court but the court rejects it; the claim as cited is the opposite of the corpus)",
+      "lang": "en"
+    },
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23bis",
+      "expected_status": "SUPPORTED",
+      "claim": "article number written in words (الثالثة والعشرين مكرراً): deadline suspended on death/loss of capacity",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:8/2013:31bis",
+      "expected_status": "NOT_FOUND",
+      "claim": "English citation 'Article 31 bis': severance of one month per year of service; article 31 bis does not exist in the corpus",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "_note": "HARD stress set built by scripts/build_eval_hard.py (subtle contradictions, paraphrase, near-miss IDs, awkward formatting).",
+  "H01.txt": [
+    {
+      "kind": "statute",
+      "id": "S:63/2009:40",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    }
+  ],
+  "H02.txt": [
+    {
+      "kind": "statute",
+      "id": "S:8/2013:31",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:912/2014",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:8/2013:24",
+      "expected_status": "NOT_FOUND",
+      "lang": "ar"
+    }
+  ],
+  "H03.txt": [
+    {
+      "kind": "statute",
+      "id": "S:15/2015:14",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:87/2018",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:87/2019",
+      "expected_status": "NOT_FOUND",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:63/2009:40",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    }
+  ],
+  "H04.txt": [
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23bis",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:41/2008:23bis-a",
+      "expected_status": "NOT_FOUND",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:456/2015",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    }
+  ],
+  "H05.txt": [
+    {
+      "kind": "statute",
+      "id": "S:77/2011:15",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "statute",
+      "id": "S:63/2009:40",
+      "expected_status": "SUPPORTED",
+      "lang": "en"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:456/2016",
+      "expected_status": "NOT_FOUND",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:2210/2019",
+      "expected_status": "CONTRADICTS",
+      "lang": "ar"
+    },
+    {
+      "kind": "cassation",
+      "id": "C:1203/2017",
+      "expected_status": "SUPPORTED",
+      "lang": "ar"
+    }
+  ]
+}

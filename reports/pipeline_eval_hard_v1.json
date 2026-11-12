@@ -1,0 +1,86 @@
+{
+  "label": "hard_v1",
+  "drafts": 5,
+  "citations": 17,
+  "correct": 14,
+  "accuracy": 0.824,
+  "confusion_matrix_expected_to_actual": {
+    "SUPPORTED": {
+      "SUPPORTED": 5,
+      "CONTRADICTS": 2
+    },
+    "CONTRADICTS": {
+      "CONTRADICTS": 6
+    },
+    "NOT_FOUND": {
+      "NOT_FOUND": 3,
+      "MISSED": 1
+    }
+  },
+  "per_status": {
+    "SUPPORTED": {
+      "support": 7,
+      "tp": 5,
+      "fn": 2,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.714
+    },
+    "CONTRADICTS": {
+      "support": 6,
+      "tp": 6,
+      "fn": 0,
+      "fp": 2,
+      "precision": 0.75,
+      "recall": 1.0
+    },
+    "AMBIGUOUS": {
+      "support": 0,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "recall": null
+    },
+    "NOT_FOUND": {
+      "support": 4,
+      "tp": 3,
+      "fn": 1,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.75
+    }
+  },
+  "by_kind": {
+    "cassation": {
+      "correct": 7,
+      "total": 7,
+      "accuracy": 1.0
+    },
+    "statute": {
+      "correct": 7,
+      "total": 10,
+      "accuracy": 0.7
+    }
+  },
+  "by_lang": {
+    "ar": {
+      "correct": 13,
+      "total": 16,
+      "accuracy": 0.812
+    },
+    "en": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    }
+  },
+  "errors": [
+    "H04.txt S:41/2008:23: expected SUPPORTED, got CONTRADICTS",
+    "H04.txt S:41/2008:23bis: expected SUPPORTED, got CONTRADICTS",
+    "H04.txt S:41/2008:23bis-a: expected NOT_FOUND, got MISSED"
+  ],
+  "extras": [],
+  "needs_review": [],
+  "seconds": 43.7
+}
